@@ -186,16 +186,15 @@ body {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  color: var(--primary-section-color);
   background-color: var(--focus-color);
 }
-.portfolio-btn-list {
+.portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-}
-.portfolio-btn {
-  font-family: inherit;
   cursor: pointer;
   background-color: var(--team-background-color);
 }
